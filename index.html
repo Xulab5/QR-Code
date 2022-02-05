@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;800;900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; position:absolute; bottom:10px}
+    .attribution a { color: hsl(220, 15%, 55%); }
+    .container{
+      width: 258px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 0 35px 2px #9b999940;
+    }
+
+    body{
+      height: 100vh;
+      margin: 0px;
+      display: grid;
+      place-items: center;
+      background-color: hsl(212, 45%, 89%);
+      font-size: 15px;
+      font-family: 'Outfit', sans-serif;
+    }
+    .qr-code img{
+        width: 100%;
+        border-radius: 10px
+    }
+    .title{
+      font-weight: 900;
+      font-size: 20px;
+      margin-bottom: 15px;
+      color:hsl(218, 44%, 22%);
+    }
+    .body-text{
+      margin: 0px;
+      color: hsl(220, 15%, 55%);
+    }
+    .bottom-text{
+      padding: 0px 10px;
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <div class="container">
+    <div class="qr-code">
+      <img src="images/image-qr-code.png" alt="qr-code">
+    </div>
+    <div class="bottom-text">
+      <p class="title">
+        Improve your front-end skills by building projects
+      </p>
+      <p class="body-text">
+        Scan the QR Code to visit Front-end Mentor and take your skills to the next level.
+      </p>
+    </div>
+  </div>
+
+</main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://substeven.netlify.app/" title="See Xulab personal website">Xulab</a>.
+  </div>
+</body>
+</html>
